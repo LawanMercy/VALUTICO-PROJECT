@@ -1,0 +1,65 @@
+/* DESKTOP DEVICES  */
+
+@media (max-width:1080px) {
+    
+    .header-button {
+        display: none;
+      }
+    
+      .header-container {
+        padding: 30px 50px 30px 50px;
+    }
+    
+    .heading-subtext {
+        width: 800px;
+    }
+    
+    .heading-subtext h1 {
+        font-size: 20px;
+    }
+    
+    .trusted-by-gallary {
+        gap: 20px;
+        padding-top: 30px;
+    }
+    
+    .trusted-by img{
+        width: 150px;
+    }
+
+    .Why-Valutico-frame{
+    gap: 50px;
+    }
+
+    .Why-Valutico-frame-items {
+    width: 200px;
+    }
+
+    .Why-Valutico-frame-items h1 {
+    padding-bottom: 18px;
+    }
+
+    .Why-Valutico-frame-items p {
+    font-size: 13px;
+    }
+
+}
+
+
+/* TABLET DEVICES */
+
+@media (max-width:768px) {
+
+    .hero-content {
+        width: 600px;
+    }
+    
+    .hero-content h1 {
+        font-size: 35px;
+    }
+    
+    .hero-content p {
+        font-size: 18px;
+    }
+    
+}

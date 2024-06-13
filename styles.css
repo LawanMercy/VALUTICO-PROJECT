@@ -18,7 +18,7 @@ header nav ul {
 
 header nav ul .active {
     color: #065666;
-    font-family: 650;
+    font-weight: 650;
   }
 
   /* Navigation button dropdown icons styling */
@@ -28,13 +28,12 @@ header nav ul .active {
     padding-left: 10px;
   }
 
-  /* Right Navigatin button styling */
+  /* Right Navigation button styling */
 
   .header-button a {
     gap: 20px;
     display: flex;
     align-items:center ;
-    justify-content: center;
   }
 
 /*  HERO SECTION BELOW THE HEADER */
@@ -67,7 +66,6 @@ header nav ul .active {
 .hero-content p {
     font-size: 19px;
     line-height: 1.5;
-
 }
 
 .hero-botton {
@@ -125,6 +123,17 @@ header nav ul .active {
 
 /* The Why Valutico box section */
 
+.why-valutico-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    background-color: black;
+    color: white;
+    padding-block: 40px;
+    margin-bottom: 40px;
+}
+
 .Why-Valutico-texts {
     text-align: center;
     padding-bottom: 40px;
@@ -157,21 +166,10 @@ header nav ul .active {
     font-weight: 300;
 } 
 
-.why-valutico-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
-    background-color: black;
-    color: white;
-    padding-block: 40px;
-    margin-bottom: 40px;
-}
-
 .Why-Valutico-frame{
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 60px;
     display: flex;
 }
 
