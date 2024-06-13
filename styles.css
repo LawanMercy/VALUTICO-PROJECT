@@ -16,6 +16,10 @@ header .nav ul {
   gap: 30px;
 }
 
+header .nav ul li a {
+   font-weight: 600;
+}
+  
 header .nav ul .active {
     color: #065666;
     font-weight: 650;
@@ -30,8 +34,8 @@ header .nav ul .active {
 
   /* Right Navigation button styling */
 
-  .header-button a {
-    gap: 20px;
+  .header-button #button{
+    gap: 10px;
     display: flex;
     align-items:center ;
   }
@@ -68,7 +72,7 @@ header .nav ul .active {
     line-height: 1.5;
 }
 
-.hero-botton {
+.hero-button {
     display: flex;
     gap: 20px;
 }
@@ -109,10 +113,11 @@ header .nav ul .active {
     font-weight: 500;
 } 
 
-.trusted-by-gallary {
+.trusted-by .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    width: 100%;
 }
 
 .trusted-by img{
