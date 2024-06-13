@@ -62,4 +62,83 @@
         font-size: 18px;
     }
     
+    .hero-banner img {
+    width: 700px;
+    }
+    
+    .trusted-by img{
+     width: 140px;
+    }
+
+    .Why-Valutico-frame{
+     gap: 50px;
+     }
+    
+    .Why-Valutico-frame-items {
+    width: 180px;
+    }
+
+
+    
+    .accurate-valuation-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .accurate-valuation-contents {
+        width: 790px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    
+    .accurate-valuation-contents h1 {
+        padding-bottom: 10px;
+    }
+    
+    .accurate-valuation-contents p {
+       font-size: 15px;
+       font-weight: 100px;
+    }
+    
+    .valuation-wrapper {
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+        flex: 1;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    
+    .valuation-timeline {
+        justify-content: space-between;
+        gap: 40px;
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .valuation-timeline > div {
+        width: 220px;
+    }
+    
+    .valuation-timeline h4 {
+        font-size: 17px;
+    }
+    
+    .valuation-timeline p {
+        font-weight: 400px;
+        line-height: 1.5;
+        font-size: 13px;
+    }
+    
+    .valuation-image {
+        max-width: 400px;   
+    }
+    
+    .valuation-image img {
+        width: 400px;
+        height: 450px;
+    }
+
 }

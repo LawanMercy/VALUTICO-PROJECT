@@ -207,14 +207,14 @@ header nav ul .active {
    font-weight: 100px;
 }
 
-/* .valuation-wrapper {
+.valuation-wrapper {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
     flex: 1;
     flex-wrap: wrap;
     display: flex;
-} */
+}
 
 .valuation-timeline {
     justify-content: space-between;
