@@ -79,11 +79,6 @@
     }
 
 
-    
-    .accurate-valuation-section {
-       flex-wrap: wrap;
-    }
-    
     .accurate-valuation-contents {
         width: 600px;
     }
@@ -92,15 +87,8 @@
        font-size: 14px;
     }
     
-    .valuation-wrapper {
-        width: 100%;
-    }
-    
     .valuation-timeline {
-        justify-content: space-between;
-        gap: 40px;
-        flex-direction: column;
-        display: flex;
+        gap: 40px;  
     }
     
     .valuation-timeline > div {
@@ -112,8 +100,6 @@
     }
     
     .valuation-timeline p {
-        font-weight: 400px;
-        line-height: 1.5;
         font-size: 13px;
     }
     
@@ -124,6 +110,50 @@
     .valuation-image img {
         width: 400px;
         height: 450px;
+    }
+
+}
+
+
+/* MOBILE DEVICES */
+
+@media (max-width: 740 )  {
+
+    header .nav {
+        display: none;
+      }
+
+    .hero-content {
+        width: 450px;
+    }
+    
+    .hero-content h1 {
+        font-size: 32px;
+    }
+    
+    .hero-content p {
+        font-size: 17px;
+    }
+    
+    .hero-banner img {
+    width: 470px;
+    }
+
+    .heading-subtext {
+        width: 450px;
+    }
+    
+    .heading-subtext h1 {
+        font-size: 22px;
+    }
+
+    .trusted-by-gallary {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    
+    .trusted-by img{
+        width: 150px;
     }
 
 }

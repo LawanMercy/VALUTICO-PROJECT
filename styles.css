@@ -11,12 +11,12 @@
     width: 120px;
 }
 
-header nav ul {
+header .nav ul {
   display: flex;
   gap: 30px;
 }
 
-header nav ul .active {
+header .nav ul .active {
     color: #065666;
     font-weight: 650;
   }
