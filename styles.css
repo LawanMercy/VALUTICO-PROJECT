@@ -23,7 +23,12 @@ header .nav ul li a {
 header .nav ul .active {
     color: #065666;
     font-weight: 650;
-  }
+}
+
+.hamburger-bar {
+    font-size: 30px;
+    display: none;
+}
 
   /* Navigation button dropdown icons styling */
   
@@ -37,6 +42,7 @@ header .nav ul .active {
   .header-button #button{
     gap: 10px;
     display: flex;
+    font-weight: 500;
     align-items:center ;
   }
 
@@ -320,6 +326,7 @@ header .nav ul .active {
     display: flex;
     align-items:center ;
     justify-content: center;
+    font-weight: 500;
   
 }
 

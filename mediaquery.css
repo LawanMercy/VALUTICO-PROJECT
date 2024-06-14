@@ -121,7 +121,11 @@
 
     header .nav {
         display: none;
-      }
+    }
+
+    .hamburger-bar {
+        display: block;
+    }
 
     .hero-content {
         width: 450px;
@@ -177,13 +181,6 @@
         width: calc(100% - 50px);
     }
 
-
-    .accurate-valuation-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
     
     .accurate-valuation-contents {
         width: 400px;
@@ -198,10 +195,6 @@
        font-weight: 600px;
        padding-top: 5px;
     }
-    
-    
-
-
     
     
     .valuation-wrapper {
