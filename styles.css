@@ -158,6 +158,10 @@ header .nav ul .active {
 
 .Why-Valutico-frame {
     padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    display: flex;
 }
 
 .Why-Valutico-frame h1 {
@@ -171,24 +175,64 @@ header .nav ul .active {
     font-weight: 300;
 } 
 
-.Why-Valutico-frame{
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-    display: flex;
-}
-
 .Why-Valutico-frame-items {
     width: 400px;
     align-items: center;
 }
 
 .Why-Valutico-frame-items h1 {
-    padding-bottom: 10px;
-  
+    padding-bottom: 10px; 
 }
 
 /* FOOTER SECTION */
+
+.accurate-valuation-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.accurate-valuation-contents {
+    width: 790px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.accurate-valuation-contents h1 {
+    padding-bottom: 10px;
+}
+
+.accurate-valuation-contents p {
+   font-size: 15px;
+   font-weight: 100px;
+}
+
+.valuation-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.valuation-timeline {
+    justify-content: space-between;
+    gap: 70px;
+    max-width: 400px;
+    flex-direction: column;
+    display: flex;
+}
+
+.valuation-timeline > div {
+    width: 320px;
+}
+
+.valuation-timeline h4 {
+    font-weight: 600px;
+    padding-bottom: 7px;
+}
 
 .accurate-valuation-section {
     display: flex;
@@ -242,6 +286,15 @@ header .nav ul .active {
     font-weight: 400px;
     line-height: 1.5;
     font-size: 13px;
+}
+
+.valuation-image {
+    max-width: 400px;   
+}
+
+.valuation-image img {
+    width: 400px;
+    height: 450px;
 }
 
 .valuation-image {

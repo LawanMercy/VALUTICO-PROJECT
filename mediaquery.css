@@ -144,7 +144,7 @@
     }
     
     .heading-subtext h1 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .trusted-by .gallery {
@@ -155,5 +155,87 @@
     .trusted-by img{
         width: 150px;
     }
+
+
+
+
+
+    
+    .why-valutico-box {
+        width: 100%;
+    }
+    
+    .Why-Valutico-texts {
+       width: calc(100% - 60px);
+    }
+    
+    .Why-Valutico-frame {
+       flex-direction: column;
+    }
+    
+    .Why-Valutico-frame-items {
+        width: calc(100% - 50px);
+    }
+
+
+    .accurate-valuation-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .accurate-valuation-contents {
+        width: 400px;
+    }
+    
+    .accurate-valuation-contents h1 {
+        padding-bottom: 10px;
+    }
+    
+    .accurate-valuation-contents p {
+       font-size: 18px;
+       font-weight: 600px;
+       padding-top: 5px;
+    }
+    
+    
+
+
+    
+    
+    .valuation-wrapper {
+      flex-direction: column-reverse;
+    }
+    
+    .valuation-timeline {
+        gap: 40px; 
+    }
+    
+    .valuation-timeline > div {
+        width: 380px;
+    }
+    
+    .valuation-timeline h4 {
+        font-weight: 700px;
+        font-size: 22px;
+    }
+    
+    .valuation-timeline p {
+        font-weight: 600px;
+        font-size: 16px;
+    }
+   
+    .valuation-image img {
+        width: 400px;
+    }
+    
+
+
+
+
+
+
+    
 
 }
