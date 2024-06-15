@@ -7,7 +7,7 @@ if(mobile-menu.style.display === 'none'){
     mobile-menu.style.display = 'block';
     fa-open.style.display = 'none';
     fa-close.style.display = 'block';
-}else{
+} else {
     mobile-menu.style.display = 'none';
     fa-open.style.display = 'block';
     fa-close.style.display = 'none';
