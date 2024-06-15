@@ -1,3 +1,9 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -25,9 +31,42 @@ header .nav ul .active {
     font-weight: 650;
 }
 
-.hamburger-bar {
+#fa-open {
     font-size: 30px;
     display: none;
+}
+
+#fa-close {
+    font-size: 30px;
+    display: none;
+}
+
+
+/* Navigation list for mobile */
+
+.nav-mobile {
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    z-index: 9;
+    background: #065666;
+    display: none;
+}
+
+.nav-mobile ul {
+    display: flex;
+    gap: 70px;
+    padding-left: 30px;
+    padding-top: 35px;
+    flex-direction: column;
+}
+
+.nav-mobile ul li a {
+    display: flex;
+    column-gap: #fff;
+    font-size: 25px;
 }
 
   /* Navigation button dropdown icons styling */
@@ -326,8 +365,7 @@ header .nav ul .active {
     display: flex;
     align-items:center ;
     justify-content: center;
-    font-weight: 500;
-  
+    font-weight: 500; 
 }
 
 

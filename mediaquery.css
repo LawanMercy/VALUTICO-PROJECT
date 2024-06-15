@@ -123,12 +123,16 @@
         display: none;
     }
 
-    .hamburger-bar {
+    #fa-open {
+        display: block;
+    }
+  
+    .nav-mobile {
         display: block;
     }
 
     .hero-content {
-        width: 450px;
+        width: 300px;
     }
     
     .hero-content h1 {
