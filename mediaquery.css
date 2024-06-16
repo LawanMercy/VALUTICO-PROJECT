@@ -165,7 +165,8 @@
     }
   
     .nav-mobile {
-        display: block;
+        display: none;
+        height: 100vh;
     }
 
     .hero-content {
@@ -200,10 +201,6 @@
     .trusted-by img{
         width: 150px;
     }
-
-
-
-
 
     
     .why-valutico-box {
