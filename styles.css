@@ -78,12 +78,16 @@ header .nav ul .active {
 
   /* Right Navigation button styling */
 
-  .header-button #button{
-    gap: 10px;
-    display: flex;
-    font-weight: 500;
-    align-items:center ;
+.header-button #button{
+  padding:  10px 20px ;
+  gap: 15px;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  font-weight: 500; 
   }
+
+
 
 /*  HERO SECTION BELOW THE HEADER */
 
@@ -161,8 +165,10 @@ header .nav ul .active {
 .trusted-by .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    width: 100%;
+    width: 93%;
+    margin: 30px auto;
+    gap: 24px;
+    align-items: center;
 }
 
 .trusted-by img{
