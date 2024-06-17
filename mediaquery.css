@@ -77,18 +77,14 @@
 
 
 /* TABLET DEVICES */
-
-/* @media (max-width:944px) {
+ 
+ @media (max-width:944px) {
    .header-container .header-button {
     display: none;
    }
-} */
+} 
 
 @media (max-width:850px) {
-
-    .header-container .header-button {
-        display: none;
-    }
     
     header .nav {
         display: none;
@@ -127,9 +123,9 @@
      gap: 50px;
      }
     
-    /* .Why-Valutico-frame-items {
+    .Why-Valutico-frame-items {
     width: 180px;
-    } */
+    }
 
     .accurate-valuation-contents {
         width: 600px;
@@ -195,17 +191,13 @@
     .hero-content p {
         font-size: 17px;
     }
-    
+   
     .hero-banner img {
     width: 400px;
     }
 
-    .heading-subtext {
-        width: 450px;
-    }
-    
-    .heading-subtext h1 {
-        font-size: 15px;
+    .trusted-by .heading-subtext .h1 .p {
+        align-items: center;
     }
 
     .trusted-by .gallery {
@@ -224,7 +216,7 @@
     .Why-Valutico-texts {
        width: calc(100% - 60px);
     }
-    
+
     .Why-Valutico-frame {
        flex-direction: column;
     }
@@ -233,7 +225,6 @@
         width: calc(100% - 50px);
     }
 
-    
     .accurate-valuation-contents {
         width: 400px;
     }
@@ -257,7 +248,7 @@
     }
     
     .valuation-timeline > div {
-        width: 380px;
+        width: 100px;
     }
     
     .valuation-timeline h4 {
