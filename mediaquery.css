@@ -78,14 +78,30 @@
 
 /* TABLET DEVICES */
 
-@media (max-width:944px) {
+/* @media (max-width:944px) {
    .header-container .header-button {
     display: none;
-
    }
-}
+} */
 
 @media (max-width:850px) {
+
+    .header-container .header-button {
+        display: none;
+    }
+    
+    header .nav {
+        display: none;
+    }
+
+    #fa-open {
+        display: block;
+    }
+  
+    .nav-mobile {
+        display: none;
+        height: 100vh;
+    }
 
     .hero-content {
         width: 600px;
@@ -103,7 +119,7 @@
     width: 700px;
     }
     
-    .trusted-by img{
+    .gallery img{
      width: 140px;
     }
 
@@ -111,10 +127,9 @@
      gap: 50px;
      }
     
-    .Why-Valutico-frame-items {
+    /* .Why-Valutico-frame-items {
     width: 180px;
-    }
-
+    } */
 
     .accurate-valuation-contents {
         width: 600px;
@@ -182,7 +197,7 @@
     }
     
     .hero-banner img {
-    width: 470px;
+    width: 400px;
     }
 
     .heading-subtext {
@@ -190,7 +205,7 @@
     }
     
     .heading-subtext h1 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .trusted-by .gallery {
@@ -198,10 +213,9 @@
         gap: 40px;
     }
     
-    .trusted-by img{
-        width: 150px;
+    .gallery img {
+        width: 100px;
     }
-
     
     .why-valutico-box {
         width: 100%;
@@ -234,7 +248,6 @@
        padding-top: 5px;
     }
     
-    
     .valuation-wrapper {
       flex-direction: column-reverse;
     }
@@ -258,7 +271,7 @@
     }
    
     .valuation-image img {
-        width: 400px;
+        width: 350px;
     } 
 
 }
